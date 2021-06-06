@@ -1,0 +1,36 @@
+name: LightSpeed
+main: me.mind31313.lightspeed.Main
+author: mind31313
+api-version: 1.16
+version: 1.0
+commands:
+  lightspeed:
+    usage: /<command>
+    aliases: ls
+  kit:
+    usage: /<command>
+permissions:
+  lightspeed.speedpoints:
+    description: Allows users to view or set a player's speedpoints
+    default: op
+  lightspeed.kit.set:
+    description: Allows users to set players' kits
+    default: op
+  lightspeed.kit.grant:
+    description: Allows users to grant players' kits
+    default: op
+  lightspeed.kit.revoke:
+    description: Allows users to revoke players' kits
+    default: op
+  lightspeed.spawns.list:
+    description: Allows users to view respawn points
+    default: op
+  lightspeed.spawns.add:
+    description: Allows users to add respawn points
+    default: op
+  lightspeed.spawns.remove:
+    description: Allows users to view remove points
+    default: op
+  lightspeed.item.throw:
+    description: Allows users to bypass the anti item throw feature
+    default: op

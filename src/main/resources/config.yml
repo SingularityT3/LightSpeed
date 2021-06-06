@@ -1,0 +1,17 @@
+pointGainRate: 0.01
+pointsPerKill: 8
+speedUpRate: 0.1
+disableHunger: true
+showHealth: true
+respawnCooldown: 5
+spawnProtection: 10
+serverIP: "my.server.com"
+# Combat logging(Deduct speed points if players log out when in combat)
+combatLoggingPenaltyEnabled: true
+combatLoggingPenaltyAmount: 20
+# World settings
+setKitOnJoinServer: true
+setKitOnJoinWorld: true
+worlds: [world] # Worlds the plugin will be active in
+spawns: # Better to use commands for this
+  world: []
